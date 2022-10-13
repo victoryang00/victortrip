@@ -1,0 +1,545 @@
+{
+    "mapViewData": {
+        "data": [
+            {
+                "polylines": [
+                    {
+                        "type": "FLIGHT",
+                        "points": [
+                            {
+                                "lat": 27.525377,
+                                "lng": 109.968651
+                            },
+                            {
+                                "lat": 31.229730000000004,
+                                "lng": 121.54947000000001
+                            }
+                        ],
+                        "style": {
+                            "color": 4282339765,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [],
+                "airportIDs": [
+                    "3131",
+                    "0000"
+                ],
+                "stations": [],
+                "airports": [
+                    {
+                        "id": "3131",
+                        "eid": {
+                            "openflights": "3131",
+                            "iata": "BLR",
+                            "icao": "VOBL"
+                        },
+                        "name": {
+                            "en": "Kansai International Airport"
+                        },
+                        "location": {
+                            "lat": "13.1979",
+                            "lng": "77.706299",
+                            "alt": "3000",
+                            "country": "India"
+                        },
+                        "timezone": "Asia/Calcutta"
+                    },
+                    {
+                        "id": "0000",
+                        "eid": {
+                            "openflights": "0000",
+                            "iata": "DMK",
+                            "icao": "VTBD"
+                        },
+                        "name": {
+                            "en": "Don Mueang International Airport"
+                        },
+                        "location": {
+                            "lat": "13.9132602",
+                            "lng": "100.6041987",
+                            "alt": "5",
+                            "country": "Thailand"
+                        },
+                        "timezone": "Asia/Bangkok"
+                    }
+                ]
+            },
+            {
+                "polylines": [
+                    {
+                        "type": "FLIGHT",
+                        "points": [
+                            {
+                                "lat": 31.1769,
+                                "lng": 121.38477000000002
+                            },
+                            {
+                                "lat": 23.1290799,
+                                "lng": 113.26436
+                            }
+                        ],
+                        "style": {
+                            "color": 4282339765,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [
+                    "Guangzhou:7:CHRStation"
+                ],
+                "airportIDs": [],
+                "stations": [
+                    {
+                        "id": "Guangzhou:7:CHRStation",
+                        "name": {
+                            "en": "Guangzhou CHR Station"
+                        },
+                        "location": {
+                            "lat": "23.1290799",
+                            "lng": "113.26436",
+                            "address": "Guangzhou, Guangdong Province, China"
+                        }
+                    }
+                ],
+                "airports": []
+            },
+            {
+                "polylines": [
+                    {
+                        "type": "FLIGHT",
+                        "points": [
+                            {
+                                "lat": 22.239662,
+                                "lng": 113.593571
+                            },
+                            {
+                                "lat": 22.476872,
+                                "lng": 113.912403
+                            }
+                        ],
+                        "style": {
+                            "color": 4282339765,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [
+                    "Zhuhai:Ship:JiuzhouStation",
+                    "Shenzhen:Ship:ShekouStation"
+                ],
+                "airportIDs": [],
+                "stations": [
+                    {
+                        "id": "Zhuhai:Ship:JiuzhouStation",
+                        "name": {
+                            "en": "Zhuhai Jiuzhou Station"
+                        },
+                        "location": {
+                            "lat": "22.239662",
+                            "lng": "113.593571",
+                            "address": "China, Guang Dong Sheng, Zhu Hai Shi, Xiang Zhou Qu, Qing Lv Nan Lu, 情侣南路 邮政编码: 519015"
+                        }
+                    },
+                    {
+                        "id": "Shenzhen:Ship:ShekouStation",
+                        "name": {
+                            "en": "Shenzhen Shekou Station"
+                        },
+                        "location": {
+                            "lat": "22.476872",
+                            "lng": "113.912403",
+                            "address": "Shekou Port station, Nanyou, Nan Shan Qu, Shen Zhen Shi, China"
+                        }
+                    }
+                ],
+                "airports": []
+            },
+            {
+                "polylines": [
+                    {
+                        "type": "RAIL",
+                        "points": [
+                            {
+                                "lng": 113.2633608,
+                                "lat": 23.129122499999998
+                            },
+                            {
+                                "lng": 113.26344999999999,
+                                "lat": 23.131529999999998
+                            },
+                            {
+                                "lng": 113.27709700000001,
+                                "lat": 23.131040199999997
+                            },
+                            {
+                                "lng": 113.27776999999999,
+                                "lat": 23.1298299
+                            },
+                            {
+                                "lng": 113.27831,
+                                "lat": 23.12978
+                            },
+                            {
+                                "lng": 113.27947999999999,
+                                "lat": 23.11382
+                            },
+                            {
+                                "lng": 113.25304000000001,
+                                "lat": 23.09879
+                            },
+                            {
+                                "lng": 113.25157999999999,
+                                "lat": 23.09938
+                            },
+                            {
+                                "lng": 113.24982999999999,
+                                "lat": 23.0985799
+                            },
+                            {
+                                "lng": 113.24417000000001,
+                                "lat": 23.095209999999998
+                            },
+                            {
+                                "lng": 113.24188,
+                                "lat": 23.0946
+                            },
+                            {
+                                "lng": 113.24965999999999,
+                                "lat": 23.078079999999996
+                            },
+                            {
+                                "lng": 113.25197000000001,
+                                "lat": 23.06955
+                            },
+                            {
+                                "lng": 113.30865,
+                                "lat": 22.87111
+                            },
+                            {
+                                "lng": 113.30869,
+                                "lat": 22.86308
+                            },
+                            {
+                                "lng": 113.30269,
+                                "lat": 22.86105
+                            },
+                            {
+                                "lng": 113.29741000000001,
+                                "lat": 22.854889999999994
+                            },
+                            {
+                                "lng": 113.32927000000001,
+                                "lat": 22.60908
+                            },
+                            {
+                                "lng": 113.33073,
+                                "lat": 22.596539999999994
+                            },
+                            {
+                                "lng": 113.46401,
+                                "lat": 22.21877
+                            },
+                            {
+                                "lng": 113.46441999999999,
+                                "lat": 22.2125
+                            },
+                            {
+                                "lng": 113.46978,
+                                "lat": 22.210700000000003
+                            },
+                            {
+                                "lng": 113.52792000000001,
+                                "lat": 22.232570000000003
+                            },
+                            {
+                                "lng": 113.54862,
+                                "lat": 22.23723
+                            },
+                            {
+                                "lng": 113.55089,
+                                "lat": 22.237479999999994
+                            },
+                            {
+                                "lng": 113.54876999999999,
+                                "lat": 22.256209999999996
+                            },
+                            {
+                                "lng": 113.54941,
+                                "lat": 22.26943
+                            },
+                            {
+                                "lng": 113.57647999999999,
+                                "lat": 22.2704999
+                            }
+                        ],
+                        "style": {
+                            "color": 4294198070,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [],
+                "airportIDs": [],
+                "stations": [],
+                "airports": []
+            },
+            {
+                "polylines": [
+                    {
+                        "type": "RAIL",
+                        "points": [
+                            {
+                                "lng": 113.9206029,
+                                "lat": 22.486377400000002
+                            },
+                            {
+                                "lng": 113.92067,
+                                "lat": 22.486120000000003
+                            },
+                            {
+                                "lng": 113.92125999999999,
+                                "lat": 22.48605
+                            },
+                            {
+                                "lng": 113.92128,
+                                "lat": 22.486699999999995
+                            },
+                            {
+                                "lng": 113.92426999999999,
+                                "lat": 22.486649999999997
+                            },
+                            {
+                                "lng": 113.92405,
+                                "lat": 22.48558
+                            },
+                            {
+                                "lng": 113.95183000000002,
+                                "lat": 22.50704
+                            },
+                            {
+                                "lng": 113.95814,
+                                "lat": 22.550929999999994
+                            },
+                            {
+                                "lng": 113.95798,
+                                "lat": 22.553239999999995
+                            },
+                            {
+                                "lng": 113.98362000000002,
+                                "lat": 22.554379900000004
+                            },
+                            {
+                                "lng": 113.98456999999999,
+                                "lat": 22.55427
+                            },
+                            {
+                                "lng": 113.98861,
+                                "lat": 22.555159999999997
+                            },
+                            {
+                                "lng": 113.9882,
+                                "lat": 22.554669999999998
+                            },
+                            {
+                                "lng": 113.98866000000001,
+                                "lat": 22.582150000000002
+                            },
+                            {
+                                "lng": 113.98838,
+                                "lat": 22.58397
+                            },
+                            {
+                                "lng": 113.98832999999999,
+                                "lat": 22.584719999999997
+                            },
+                            {
+                                "lng": 113.98871000000001,
+                                "lat": 22.585259999999995
+                            },
+                            {
+                                "lng": 114.00062,
+                                "lat": 22.5897599
+                            },
+                            {
+                                "lng": 114.00041999999999,
+                                "lat": 22.590419999999998
+                            },
+                            {
+                                "lng": 113.99973999999999,
+                                "lat": 22.59241
+                            },
+                            {
+                                "lng": 113.99927000000001,
+                                "lat": 22.593170000000004
+                            },
+                            {
+                                "lng": 114.00067,
+                                "lat": 22.594729899999997
+                            },
+                            {
+                                "lng": 113.99901,
+                                "lat": 22.59534
+                            }
+                        ],
+                        "style": {
+                            "color": 4294198070,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [
+                    "Shenzhen:5:TanglangStation",
+                    "Shenzhen:5:CHRTrain"
+                ],
+                "airportIDs": [],
+                "stations": [
+                    {
+                        "id": "SZ:5:TanglangStation",
+                        "name": {
+                            "en": "1088 Xue Yuan Da Dao, Nan Shan Qu, Shenzhen"
+                        },
+                        "location": {
+                            "lat": "22.593969",
+                            "lng": "113.99894",
+                            "address": "1088 Xue Yuan Da Dao, Nan Shan Qu, Shen Zhen Shi, Guang Dong Sheng, China, 518055",
+                            "postcode": "518055"
+                        }
+                    },
+                    {
+                        "id": "SZ:5:CHRTrain",
+                        "name": {
+                            "en": "Shenzhen North Railway Station, Bao An Qu, Shen Zhen Shi, China, 518131"
+                        },
+                        "location": {
+                            "lat": "22.6103329",
+                            "lng": "114.030227",
+                            "address": "Shenzhen North Railway Station, Bao An Qu, Shen Zhen Shi, China, 518131",
+                            "postcode": "518131"
+                        }
+                    }
+                ],
+                "airports": []
+            },
+            {
+                "polylines": [
+                    {
+                        "type": "RAIL",
+                        "points": [
+                            {
+                                "lng": 113.99866000000002,
+                                "lat": 22.594559999999998
+                            },
+                            {
+                                "lng": 113.99901,
+                                "lat": 22.59534
+                            },
+                            {
+                                "lng": 114.00162,
+                                "lat": 22.594520000000003
+                            },
+                            {
+                                "lng": 114.00466999999999,
+                                "lat": 22.5971699
+                            },
+                            {
+                                "lng": 114.00562000000001,
+                                "lat": 22.59629
+                            },
+                            {
+                                "lng": 114.00873999999999,
+                                "lat": 22.5965
+                            },
+                            {
+                                "lng": 114.01169999999999,
+                                "lat": 22.599270000000004
+                            },
+                            {
+                                "lng": 114.02004000000001,
+                                "lat": 22.607879999999998
+                            },
+                            {
+                                "lng": 114.02322,
+                                "lat": 22.60981
+                            },
+                            {
+                                "lng": 114.02731000000001,
+                                "lat": 22.60605
+                            },
+                            {
+                                "lng": 114.02711,
+                                "lat": 22.60662
+                            },
+                            {
+                                "lng": 114.02732139999999,
+                                "lat": 22.606805499999997
+                            },
+                            {
+                                "lng": 114.0278634,
+                                "lat": 22.6076548
+                            }
+                        ],
+                        "style": {
+                            "color": 4294198070,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [],
+                "airportIDs": [],
+                "stations": [],
+                "airports": []
+            },
+            {
+                "polylines": [
+                    {
+                        "type": "FLIGHT",
+                        "points": [
+                            {
+                                "lng": 113.99866000000002,
+                                "lat": 22.594559999999998
+                            },
+                            {
+                                "lng": 112.941342,
+                                "lat": 27.963957
+                            },
+                            {
+                                "lat": 27.525377,
+                                "lng": 109.968651
+                            }
+                        ],
+                        "style": {
+                            "color": 4282339765,
+                            "pattern": "SOLID"
+                        }
+                    }
+                ],
+                "stationIDs": [
+                    "XiangTan:CHR:XiangtanCHRStation"
+                ],
+                "airportIDs": [],
+                "stations": [
+                    {
+                        "id": "XiangTan:CHR:XiangtanCHRStation",
+                        "name": {
+                            "en": "China, Hu Nan Sheng, Xiang Tan Shi, Xiang Tan Xian, 银盖北路XW7R+HGP 邮政编码: 411201"
+                        },
+                        "location": {
+                            "lat": "27.963957",
+                            "lng": "112.941342",
+                            "address": "China, Hu Nan Sheng, Xiang Tan Shi, Xiang Tan Xian, 银盖北路XW7R+HGP 邮政编码: 411201",
+                            "postcode": "411201"
+                        }
+                    }
+                ],
+                "airports": []
+            }
+        ],
+        "center": {
+            "lat": 28.2693457,
+            "lng": 117.1389551
+        },
+        "maximumDistance": 1200.538588346275
+    }
+}
