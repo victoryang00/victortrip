@@ -9495,7 +9495,7 @@
             _.a = null
             _.b = c
             _.c = null
-        }, Qw: function Qw(a) { this.a = a }, Qx: function Qx(a) { this.a = a },Qsb:function Qsb(a) { this.a = a },Qsb1:function Qsb1(a) { this.a = a },Qsb2:function Qsb2(a) { this.a = a }, Qsb3:function Qsb3(a) { this.a = a }, Qsb4:function Qsb4(a) { this.a = a },Qy: function Qy(a) { this.a = a }, Qz: function Qz(a, b) {
+        }, Qw: function Qw(a) { this.a = a }, Qx: function Qx(a) { this.a = a },Qsb:function Qsb(a) { this.a = a },Qsb1:function Qsb1(a) { this.a = a },Qsb2:function Qsb2(a) { this.a = a }, Qsb3:function Qsb3(a) { this.a = a }, Qsb4:function Qsb4(a) { this.a = a }, Qsb5:function Qsb5(a) { this.a = a },Qy: function Qy(a) { this.a = a }, Qz: function Qz(a, b) {
             this.a = a
             this.b = b
         }, wj: function wj(a, b, c) {
@@ -34689,7 +34689,7 @@
             return new M.qk(new E.nE(p, new P.as(1 / 0, 56), q), T.qE(C.cq, s, C.ck), o, q)
         },
         E1: function () {
-            var t = null, s = H.c([Q.Y6(new Y.Qw(this), L.zT("victortrips", t)) , Q.Y6(new Y.Qx(this), L.zT("Singapore-Mala-Thai-India-Nepal", t)), Q.Y6(new Y.Qsb(this), L.zT("South-Korea", t)),Q.Y6(new Y.Qsb1(this), L.zT("Japan-Tokio", t)),Q.Y6(new Y.Qsb2(this), L.zT("Guangdong-Xiangxi", t)) ,Q.Y6(new Y.Qsb3(this), L.zT("Japan-Osaka", t))], u.E), r = P.ar([null, 0], u.qI, u.S), q = s.length
+            var t = null, s = H.c([Q.Y6(new Y.Qw(this), L.zT("victortrips", t)) , Q.Y6(new Y.Qx(this), L.zT("Singapore-Mala-Thai-India-Nepal", t)), Q.Y6(new Y.Qsb(this), L.zT("South-Korea", t)),Q.Y6(new Y.Qsb1(this), L.zT("Japan-Tokio", t)),Q.Y6(new Y.Qsb2(this), L.zT("Guangdong-Xiangxi", t)) ,Q.Y6(new Y.Qsb3(this), L.zT("Japan-Osaka", t)), Q.Y6(new Y.Qsb4(this), L.zT("SantaCruz-LA-Irvine", t))], u.E), r = P.ar([null, 0], u.qI, u.S), q = s.length
             return new Z.vL(new B.wQ(new G.Nl(!0, !0, !0, s, r), t, C.H, !1, t, !0, C.qp, !1, t, q, C.ae, t), t)
         },
         nc: function () {
@@ -34726,6 +34726,10 @@
     }
     Y.Qsb2.prototype = {
         $0: function () { sbsbsbbssbsbsbsbsbsbs = 5; $.E6().NF(this.a.c, "/u/victor?year=2022?trip=Guangdong-Xiangxi", !0, C.q3, C.bT) },
+        $S: 0
+    }
+    Y.Qsb5.prototype = {
+        $0: function () { sbsbsbbssbsbsbsbsbsbs = 9; $.E6().NF(this.a.c, "/u/victor?year=2022?trip=SantaCruz-LA-Irvine", !0, C.q3, C.bT) },
         $S: 0
     }
     Y.Qsb3.prototype = {
@@ -34808,6 +34812,11 @@
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
                     case 8: n = "https://victoryang00.cn/trips/u/victor/all" + b.zM()
+                        P.hh(n)
+                        sbsbsbbssbsbsbsbsbsbs = 0
+                        t = 3
+                        return P.at(q.b.lH("GET", n, null), $async$mm)
+                    case 9: n = "https://victoryang00.cn/trips/u/victor/2022-SantaCruz-LA-Irvine" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
