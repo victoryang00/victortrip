@@ -6,12 +6,12 @@ input_json = json.load(open('u/victor/2022-Guangdong-Xiangxi'))
 
 def get_gpx_data(filename):
     dic = Converter(input_file=filename).gpx_to_dictionary(
-        latitude_key='latitude', longitude_key='longitude')
+        latitude_key='lat', longitude_key='lon')
     # now you have a dictionary and can access the longitudes and latitudes values from the keys
-    latitudes = dic['latitude']
+    latitudes = dic['lat']
     # print(latitudes)
-    longitudes = dic['longitude']
-    return latitudes, longitudes
+    longitudes = dic['lon']
+    return (latitudes, longitudes)
 
 class JsonBuilder:
     def __init__(self, input_json: Dict):
@@ -22,27 +22,25 @@ class JsonBuilder:
         self.json["mapViewData"]["data"][0]["polylines"] = []
         self.json["mapViewData"]["data"][0]["stationIDs"] = []
         self.json["mapViewData"]["data"][0]["stations"] = []
-        for idx, a in enumerate(self.json["mapViewData"]["data"]):
-            if idx != 0:
-                self.json["mapViewData"]["data"][idx] = {}
+        self.json["mapViewData"]["data"]= [self.json["mapViewData"]["data"][0]]
 
     # @staticmethod
     def add_station(self, index: int, id: str, name: str, lat: float, lng: float, addr: str, postcode: int):
-        new_json = {"id": id, "name": {"en": name}, "location": {
-            "lat": lat, "lng": lng, "address": addr, "postcode": postcode}}
+        new_json = {"id": str(id), "name": {"en": name}, "location": {
+            "lat": str(lat), "lng": str(lng), "address": addr, "postcode": str(postcode)}}
         self.json["mapViewData"]["data"][index]["stations"].append(new_json)
-        self.json["mapViewData"]["data"][index]["stationIDs"].append("id")
+        self.json["mapViewData"]["data"][index]["stationIDs"].append(id)
 
     # @staticmethod
     def add_car_data(self, index: int, latitudes: list, longitudes: list):
-        new_poly = {"type": "CAR",
+        new_poly = {"type": "RAIL",
                     "style": {
                         "color": 4284198070,
                         "pattern": "SOLID"
                     },
                     "points": []}
         for i in range(len(latitudes)):
-            new_point = {"lat": latitudes[i], "lng": latitudes[i]}
+            new_point = {"lat": latitudes[i], "lng": longitudes[i]}
             new_poly["points"].append(
                 new_point)
         self.json["mapViewData"]["data"][index]["polylines"].append(new_poly)
@@ -55,11 +53,14 @@ class JsonBuilder:
                     },
                     "points": []}
         for i in range(len(latitudes)):
-            new_point = {"lat": latitudes[i], "lng": latitudes[i]}
+            new_point = {"lat": latitudes[i], "lng": longitudes[i]}
             new_poly["points"].append(
                 new_point)
         self.json["mapViewData"]["data"][index]["polylines"].append(new_poly)
-
+    def change_center(self, lat, lon,distance):
+        self.json["mapViewData"]["center"]["lat"]=lat
+        self.json["mapViewData"]["center"]["lng"]=lon
+        self.json["mapViewData"]["maximumDistance"]=distance
 
 output = JsonBuilder(input_json)
 
@@ -80,6 +81,7 @@ output.add_car_data(0,*get_gpx_data("gpx/From_SC_to_LA.gpx"))
 output.add_train_data(0,*get_gpx_data("gpx/LA_to_IV.gpx"))  
 output.add_car_data(0,*get_gpx_data("gpx/Morning_Ride.gpx"))  
 output.add_car_data(0,*get_gpx_data("gpx/josef.gpx"))  
+output.change_center(34.4208305 ,-119.6981901,600)  
 out_file = open("u/victor/2022-SantaCruz-LA-Irvine", "w")
 
 json.dump(output.json, out_file, indent=4)
