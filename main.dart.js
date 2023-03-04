@@ -34770,53 +34770,53 @@
                     var n = ""
                     console.log(sb)
                     if (sb == "?year=2019?trip=South-Korea"){
-                        n = "https://victoryang00.cn/trips/u/victor/2019-South-Korea" +sb
+                        n = "https://asplos.dev/trips/u/victor/2019-South-Korea" +sb
                     }else if (sb == "?year=2019?trip=Singapore-Mala-Thai-India-Nepal"){
-                       n= "https://victoryang00.cn/trips/u/victor/2019-Singapore-Mala-Thai-India-Nepal" + sb
+                       n= "https://asplos.dev/trips/u/victor/2019-Singapore-Mala-Thai-India-Nepal" + sb
                     } else if (sb == "?year=2022"){
-                        n = "https://victoryang00.cn/trips/u/victor/2022" 
+                        n = "https://asplos.dev/trips/u/victor/2022" 
                     } else if (sb == "?year=2019"){
-                       n = "https://victoryang00.cn/trips/u/victor/2019"    
+                       n = "https://asplos.dev/trips/u/victor/2019"    
                     }else if (sb == "?year=2020"){
-                        n = "https://victoryang00.cn/trips/u/victor/2020"   
+                        n = "https://asplos.dev/trips/u/victor/2020"   
                      } else{
-                        n = "https://victoryang00.cn/trips/u/victor/all" 
+                        n = "https://asplos.dev/trips/u/victor/all" 
                      }
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 2: n = "https://victoryang00.cn/trips/u/victor/2019-South-Korea" + b.zM()
+                    case 2: n = "https://asplos.dev/trips/u/victor/2019-South-Korea" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 4: n = "https://victoryang00.cn/trips/u/victor/2019-Singapore-Mala-Thai-India-Nepal" + b.zM()
+                    case 4: n = "https://asplos.dev/trips/u/victor/2019-Singapore-Mala-Thai-India-Nepal" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 5: n = "https://victoryang00.cn/trips/u/victor/2022-Guangdong-Xiangxi" + b.zM()
+                    case 5: n = "https://asplos.dev/trips/u/victor/2022-Guangdong-Xiangxi" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 6: n = "https://victoryang00.cn/trips/u/victor/2020-Japan-Tokio" + b.zM()
+                    case 6: n = "https://asplos.dev/trips/u/victor/2020-Japan-Tokio" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 7: n = "https://victoryang00.cn/trips/u/victor/2018-Japan-Osaka" + b.zM()
+                    case 7: n = "https://asplos.dev/trips/u/victor/2018-Japan-Osaka" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 8: n = "https://victoryang00.cn/trips/u/victor/all" + b.zM()
+                    case 8: n = "https://asplos.dev/trips/u/victor/all" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
                         return P.at(q.b.lH("GET", n, null), $async$mm)
-                    case 9: n = "https://victoryang00.cn/trips/u/victor/2022-SantaCruz-LA-Irvine" + b.zM()
+                    case 9: n = "https://asplos.dev/trips/u/victor/2022-SantaCruz-LA-Irvine" + b.zM()
                         P.hh(n)
                         sbsbsbbssbsbsbsbsbsbs = 0
                         t = 3
