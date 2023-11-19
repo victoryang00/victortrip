@@ -34685,7 +34685,7 @@
             return new M.qk(new E.nE(p, new P.as(1 / 0, 56), q), T.qE(C.cq, s, C.ck), o, q)
         },
         E1: function () {
-            var t = null, s = H.c([Q.Y6(new Y.Qw(this), L.zT("VickieGPT", t)), r = P.ar([null, 0], u.qI, u.S), q = s.length
+            var t = null, s = H.c([Q.Y6(new Y.Qw(this), L.zT("VickieGPT", t)), Q.Y6(new Y.Qx(this), L.zT("2019", t))], u.E), r = P.ar([null, 0], u.qI, u.S), q = s.length
             return new Z.vL(new B.wQ(new G.Nl(!0, !0, !0, s, r), t, C.H, !1, t, !0, C.qp, !1, t, q, C.ae, t), t)
         },
         nc: function () {
@@ -34712,7 +34712,7 @@
         $S: 0
     }
     Y.Qx.prototype = {
-        $0: function () { $.E6().NF(this.a.c, "/u/victor?year=2020", !0, C.q3, C.bT) },
+        $0: function () { $.E6().NF(this.a.c, "/u/victor?year=2019", !0, C.q3, C.bT) },
         $S: 0
     }
     Y.Qy.prototype = {
